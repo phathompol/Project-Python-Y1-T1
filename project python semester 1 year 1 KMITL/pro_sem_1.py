@@ -8,7 +8,7 @@ class Project_prototypes_main_page:
     def __init__(self):
         self.window_2 = Tk()
         self.window_2.configure(bg='#00c77e')
-        self.window_2.title("My Dreaw World")
+        self.window_2.title("My Dream World")
         self.window_2.iconbitmap('463407-200.ico')
         self.first_machine = CircularQueue(10000)
         self.second_machine = CircularQueue(10000)
