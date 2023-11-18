@@ -970,7 +970,7 @@ class Popup_make_reservasion_info_main:
         self.pop.configure(bg='lightpink')
 
     def name(self):
-        self.label_1 = Label(self.pop, text= "Firstname:", font= ("Calibri", 12, 'bold'), bg='lightpink')
+        self.label_1 = Label(self.pop, text= "First name:", font= ("Calibri", 12, 'bold'), bg='lightpink')
         self.label_1.grid(row=1,column=1, sticky=W, pady=10, padx=10)
 
     def surname(self):
