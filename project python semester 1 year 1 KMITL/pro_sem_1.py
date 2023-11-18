@@ -941,7 +941,7 @@ class first_page_login:
             self.label_3.grid(column=2, row=9)
             self.label_11 = Label(self.window, text= "Open : 08:00:00 AM", font= ("YouYuan", 10, "bold"), padx = 140, pady = 10, bg='lightpink', fg = '#9a6db1')
             self.label_11.grid(column=2, row=10)
-            self.label_12 = Label(self.window, text= "Close : 18:00:00 PM", font= ("YouYuan", 10, "bold"), padx = 140, bg='lightpink', fg = '#9a6db1')
+            self.label_12 = Label(self.window, text= "Close : 06:00:00 PM", font= ("YouYuan", 10, "bold"), padx = 140, bg='lightpink', fg = '#9a6db1')
             self.label_12.grid(column=2, row=11)
 
             self.labe0 = Label(self.window,text='',pady = 80, bg='lightpink')
