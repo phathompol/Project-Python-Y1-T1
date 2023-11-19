@@ -932,7 +932,7 @@ class first_page_login:
             self.label_2 = Label(self.window, text= "Make a Reservation\nTheme Park", font= ("Segoe UI Black", 20, "bold"), padx = 140, pady = 5, bg='lightpink')
             self.label_2.grid(column=2, row=6)
 
-            self.button1 = Button(self.window, text= "Click Start", width = 12, command= self.make, font= ("Viner Hand ITC", 10, 'italic'), padx = 140, pady = 10, fg = '#864d9c', bd = '5')
+            self.button1 = Button(self.window, text= "Click Start", width = 12, command= self.make, font= ("Viner Hand ITC", 15, 'italic'), padx = 140, pady = 10, fg = '#864d9c', bd = '5')
             self.button1.grid(column=2, row=7)
             
             self.label_4 = Label(self.window, text= "Please Enjoy", font= ("YouYuan", 12, "bold"), padx = 140, pady = 10, bg='lightpink', fg = '#006db1')
